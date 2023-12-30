@@ -1,0 +1,24 @@
+.adventure-detail-card {
+  display: inline-flex;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.adventure-card-image {
+  width: 100%;
+  height: 100%;
+}
+.adventure-card-image:hover {
+  filter: brightness(50%);
+}
+.content {
+  padding: 20px 0px;
+}
+.adventure-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.2s all;
+}

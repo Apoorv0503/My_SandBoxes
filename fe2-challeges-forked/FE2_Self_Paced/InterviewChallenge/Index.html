@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Interview Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1 class="heading">Todos</h1>
+        <h3 class="sub-heading"></h3>
+      </header>
+      <main>
+        <form id="myForm">
+          <!-- Form Section -->
+          <div class="input-group mb-3">
+            <input
+              id="todo-input"
+              type="text"
+              class="form-control"
+              placeholder="Add Todos"
+              aria-label="Input text"
+              aria-describedby="addButton"
+            />
+            <button
+              class="btn btn-outline-secondary add"
+              type="button"
+              id="addButton"
+            >
+              +
+            </button>
+          </div>
+
+          <div id="clearDiv">
+            <button
+              class="btn btn-danger btn-block mb-3 clear"
+              id="clearButton"
+            >
+              Clear
+            </button>
+          </div>
+          <!-- Clear Button -->
+
+          <!-- Todo List -->
+          <ul class="list-group" id="todo-list">
+            <!-- todo list item will be added here -->
+          </ul>
+        </form>
+      </main>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"
+  ></script>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,31 @@
+/* * {
+  margin: 10px;
+} */
+.tile {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+}
+.tile img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.tile img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+}
+
+.tile-text {
+  position: absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

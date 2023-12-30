@@ -1,0 +1,12 @@
+/* Example: Adding decorative quotes to a paragraph */
+p::before {
+  content: "“";
+  color: #999;
+  font-size: 1.5em;
+}
+
+p::after {
+  content: "”";
+  color: #999;
+  font-size: 7em;
+}

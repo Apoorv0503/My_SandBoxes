@@ -1,0 +1,87 @@
+body {
+  background-color: #ffe4c4;
+}
+
+/* 
+blog-card
+Should have a minimum width of 128px
+Maximum width of 256px
+Minimum height of 128px
+Border radius 10px on each side of the card
+Bottom margin of 16px
+Background color is rgb(255, 250, 250)
+*/
+
+.blog-card {
+  width: 256px;
+  min-width: 128px;
+  min-height: 128px;
+  margin-bottom: 16px;
+  background-color: rgb(255, 250, 250);
+  border-radius: 10px;
+}
+
+/* 
+Card Image
+The height and width of the image should be 100%
+The image should keep its aspect ratio and fill in the given dimension.
+The top left and right radius should be 10px.
+*/
+
+.card-img > img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Card Content
+Padding on left, right and bottom should be 16px.
+Padding on top should be 0px.
+*/
+
+.card-content {
+  padding: 0 16px 16px 16px;
+}
+
+/* Card Body
+Overline is h2 of size 12px, always uppercase and opacity 50%
+Heading is h1 with size 21px. Bottom margin is 24px
+Paragraph text is of opacity 60% and font size is 14.4px
+*/
+
+.card-body h2 {
+  font-size: 12px;
+  opacity: 50%;
+}
+.card-body h1 {
+  font-size: 21px;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+.card-body p {
+  opacity: 60%;
+  font-size: 14.4px;
+}
+
+/* 
+Card Footer
+Should have font-size of 12.8px.
+Align-items to the center and justify-content as space between.
+
+Author Link
+Should have no underline on it, but should be a link.
+The default and visited link color should be rgb(109, 109, 235)
+*/
+
+.card-footer {
+  display: flex;
+  font-size: 12.8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-footer div a {
+  text-decoration: none;
+  color: rgb(109, 109, 235);
+}

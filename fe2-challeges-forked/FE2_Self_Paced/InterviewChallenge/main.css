@@ -1,0 +1,58 @@
+body {
+  background: -webkit-linear-gradient(
+    left,
+    #7db9e8 -1%,
+    #7db9e8 3%,
+    #2989d8 17%,
+    #207cca 25%,
+    #207cca 25%,
+    #207cca 36%,
+    #207cca 36%,
+    #1e5799 70%,
+    #1e5799 100%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #7db9e8 -1%,
+    #7db9e8 3%,
+    #2989d8 17%,
+    #207cca 25%,
+    #207cca 25%,
+    #207cca 36%,
+    #207cca 36%,
+    #1e5799 70%,
+    #1e5799 100%
+  );
+  padding: 0 10px;
+}
+
+#container {
+  border: 1px solid white;
+  border-radius: 1%;
+  max-width: 600px;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem 0;
+  box-shadow: grey 0px 25px 25px;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+main {
+  /* border: 1px solid; */
+  padding: 10%;
+}
+#clearDiv {
+  text-align: right;
+}
+
+.add {
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
